@@ -1,0 +1,70 @@
+/* Reset */
+
+@import url("./reset.css");
+
+html{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Estilização Geral */
+
+.header-bg{
+  background: #1F2029;
+  padding: 11px 0px;
+}
+
+.container{
+  max-width: 997px;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+#logo{
+  margin-right: 15px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.search{
+  position: relative;
+
+}
+
+.search input{
+  background-color: #2D2E38;
+  border: none;
+  padding: 10px 0px 10px 47px;
+  border-radius: 9px;
+  font-size: 16px;
+  height: 40px;
+  color: #F6F6F6;
+  width: 286px;
+}
+
+.search input:focus{
+  outline: none;
+}
+
+.search input::placeholder{
+  color: #5C5E69;
+}
+
+#search{
+  position: absolute;
+  top: 12px;
+  left: 17px;
+}
