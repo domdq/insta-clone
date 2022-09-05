@@ -6,6 +6,9 @@ html,
 p {
   font-family: "Noto Sans", sans-serif;
 }
+p {
+  color: #fff;
+}
 
 /* Estilização Geral */
 
@@ -72,6 +75,7 @@ p {
 /* POst */
 main {
   margin-left: 542px;
+  width: 500px;
 }
 .story {
   display: flex;
@@ -91,5 +95,21 @@ main {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.post-bg {
+.post {
+  margin-bottom: 20px;
+}
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2029;
+  display: flex;
+  padding: 12px;
+}
+.post-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.post-info p {
+  font-size: 15px;
 }
