@@ -2,69 +2,94 @@
 
 @import url("./reset.css");
 
-html{
-  font-family: 'Noto Sans', sans-serif;
+html,
+p {
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* Estilização Geral */
 
-.header-bg{
-  background: #1F2029;
+.header-bg {
+  background: #1f2029;
   padding: 11px 0px;
 }
 
-.container{
+.container {
   max-width: 997px;
   margin: 0 auto;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
 }
 
-#logo{
+#logo {
   margin-right: 15px;
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
   gap: 25px;
 }
 
-.search{
+.search {
   position: relative;
-
 }
 
-.search input{
-  background-color: #2D2E38;
+.search input {
+  background-color: #2d2e38;
   border: none;
   padding: 10px 0px 10px 47px;
   border-radius: 9px;
   font-size: 16px;
   height: 40px;
-  color: #F6F6F6;
+  color: #f6f6f6;
   width: 286px;
 }
 
-.search input:focus{
+.search input:focus {
   outline: none;
 }
 
-.search input::placeholder{
-  color: #5C5E69;
+.search input::placeholder {
+  color: #5c5e69;
 }
 
-#search{
+#search {
   position: absolute;
   top: 12px;
   left: 17px;
+}
+
+/* POst */
+main {
+  margin-left: 542px;
+}
+.story {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 30px;
+  padding: 23px 0px 23px 23px;
+  color: #e8e8e9;
+  text-align: center;
+}
+.story p {
+  margin-top: 9px;
+}
+.story-bg {
+  background: #1f2029;
+  width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.post-bg {
 }
